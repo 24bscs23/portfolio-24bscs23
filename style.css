@@ -1,0 +1,243 @@
+/* ===========================
+   RESET
+=========================== */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* ===========================
+   BODY
+=========================== */
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f4f7fc;
+    color:#333;
+}
+
+/* ===========================
+   HEADER
+=========================== */
+header{
+    background:#0d6efd;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+header h1{
+    font-size:36px;
+}
+
+header p{
+    font-size:18px;
+    margin-top:10px;
+}
+
+/* ===========================
+   NAVIGATION
+=========================== */
+nav{
+    background:#222;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#00ffcc;
+}
+
+/* ===========================
+   CONTAINER
+=========================== */
+.container{
+    width:90%;
+    margin:25px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+/* ===========================
+   HEADINGS
+=========================== */
+h2{
+    color:#0d6efd;
+    margin-bottom:15px;
+}
+
+/* ===========================
+   PARAGRAPH
+=========================== */
+p{
+    font-size:18px;
+    line-height:1.8;
+}
+
+/* ===========================
+   TABLE
+=========================== */
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+table,th,td{
+    border:1px solid #999;
+}
+
+th{
+    background:#0d6efd;
+    color:white;
+    padding:12px;
+}
+
+td{
+    padding:12px;
+    text-align:center;
+}
+
+/* ===========================
+   IMAGE
+=========================== */
+img{
+    width:250px;
+    height:180px;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+img:hover{
+    transform:scale(1.05);
+}
+
+/* ===========================
+   AUDIO
+=========================== */
+audio{
+    width:250px;
+}
+
+/* ===========================
+   VIDEO
+=========================== */
+video{
+    width:250px;
+    border-radius:10px;
+}
+
+/* ===========================
+   FORM
+=========================== */
+input,
+select,
+textarea{
+    width:100%;
+    padding:10px;
+    margin:5px 0;
+}
+
+textarea{
+    resize:vertical;
+}
+
+/* ===========================
+   BUTTON
+=========================== */
+input[type="submit"],
+input[type="reset"]{
+    width:150px;
+    background:#0d6efd;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover{
+    background:#084298;
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+
+/* ===========================
+   SMOOTH SCROLL
+=========================== */
+html{
+    scroll-behavior:smooth;
+}
+/* ===== Professional Effects ===== */
+
+nav a{
+    padding:10px 15px;
+    border-radius:6px;
+}
+
+nav a:hover{
+    background:#0d6efd;
+    color:white;
+}
+
+.container:hover{
+    transform:translateY(-3px);
+    transition:0.4s;
+}
+
+table tr:hover{
+    background:#f0f8ff;
+}
+
+img{
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+img:hover{
+    transform:scale(1.08);
+}
+
+audio,
+video{
+    border:2px solid #0d6efd;
+    border-radius:10px;
+    padding:5px;
+}
+
+input,
+select,
+textarea{
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+input:focus,
+select:focus,
+textarea:focus{
+    border:2px solid #0d6efd;
+    outline:none;
+}
+
+footer{
+    font-size:18px;
+}
